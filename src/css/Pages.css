@@ -1,0 +1,257 @@
+.page-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.page-container h1 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.search-box input {
+  width: 350px;
+  padding: 12px 15px;
+  border: 1px solid #475569;
+  border-radius: 6px;
+  background: #1e293b;
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+
+.search-box input::placeholder {
+  color: #94a3b8;
+}
+
+.search-box input:focus {
+  border-color: #38bdf8;
+}
+
+.search-box button {
+  background: #2563eb;
+  color: white;
+  border: 1px solid #38bdf8;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.movie-details {
+  display: flex;
+  gap: 40px;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.movie-details img {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.movie-details h1 {
+  margin-bottom: 15px;
+}
+
+.movie-details p {
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.booking-card {
+  background: #1e293b;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.booking-card h3 {
+  color: #0f172a;
+  margin-bottom: 18px;
+}
+.booking-card p {
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+.confirmation {
+  background: #1e293b;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.confirmation h2 {
+  margin-bottom: 15px;
+}
+
+.confirmation p {
+  margin-bottom: 20px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.page-container > h1 {
+  color: #38bdf8;
+}
+
+.search-box button {
+  background: #2563eb;
+}
+
+.search-box button:hover {
+  background: #1d4ed8;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  color: #38bdf8;
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-info h1 {
+  color: #38bdf8;
+}
+
+.movie-info button {
+  margin-top: 10px;
+  background: #2563eb;
+}
+
+.movie-info button:hover {
+  background: #1d4ed8;
+}
+
+.confirmation {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 35px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.confirmation h2 {
+  color: #22c55e;
+  margin-bottom: 15px;
+}
+
+.confirmation p {
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.confirmation button {
+  background: #2563eb;
+}
+
+.confirmation button:hover {
+  background: #1d4ed8;
+}
+
+.no-bookings {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.booking-card {
+  background: #1e293b;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #38bdf8;
+}
+
+.booking-card h3 {
+  color: #38bdf8;
+  margin-bottom: 18px;
+}
+
+.booking-card p {
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
+.page-container {
+  color: #f8fafc;
+}
+
+.page-container h1,
+.page-container h2,
+.page-container h3 {
+  color: #f8fafc;
+}
+
+.movie-details {
+  color: #cbd5e1;
+}
+
+.movie-details h1 {
+  color: #38bdf8;
+}
+
+.movie-details p {
+  color: #cbd5e1;
+}
+
+.movie-info h1 {
+  color: #38bdf8;
+}
+
+.movie-info p {
+  color: #cbd5e1;
+}
+
+.booking-card {
+  color: #cbd5e1;
+}
+
+.booking-card h3 {
+  color: #38bdf8;
+}
+
+.booking-card p {
+  color: #cbd5e1;
+}
+
+.confirmation h2 {
+  color: #22c55e;
+}
+
+.confirmation p {
+  color: #cbd5e1;
+}
+
+.home-page {
+  min-height: calc(100vh - 70px);
+  padding: 40px 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(15, 23, 42, 0.7);
+  background-blend-mode: overlay;
+}
+.home-page h1{
+  color: white;
+}
