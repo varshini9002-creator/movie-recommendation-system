@@ -1,4 +1,5 @@
 {
+  "homepage": "https://varshini9002-creator.github.io/movie-recommendation-system",
   "name": "movie-recommendation-system",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",
